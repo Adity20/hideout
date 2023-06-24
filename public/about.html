@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload Your Travel Experience</title>
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+<body>
+  <h1>Upload Your Travel Experience</h1>
+  
+  <form id="uploadForm">
+    <h2>Upload the pictures here..</h2>
+    <input type="file" id="photoInput" accept="image/*" required>
+  </form>
+
+  <div class="blog">
+    <textarea type="text" class="title" placeholder="Name of the place..."></textarea>
+    <textarea type="text" class="article" placeholder="Share your Experience here..."></textarea>
+  </div>
+
+
+  
+  <div id="submissions"></div>
+
+  <div id="uploadedPhotoContainer">
+    <h2></h2>
+    <img id="uploadedPhoto" alt="">
+  </div>
+  <button type="submit">Submit</button>
+  <script src="./js/server.js"></script>
+</body>
+</html>

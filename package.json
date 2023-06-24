@@ -1,0 +1,19 @@
+{
+  "name": "hideout",
+  "version": "1.0.0",
+  "description": "a website where you can share your travelling experiences",
+  "main": "save.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aditya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.3.1",
+    "moongoose": "^0.0.1",
+    "multer": "^1.4.5-lts.1"
+  }
+}
