@@ -797,7 +797,7 @@ body.dark{
   font-size: 2em;
   letter-spacing: 4px;
   overflow: hidden;
-  background: linear-gradient(45deg, #fc036b, #fff, #41031d);
+  background: linear-gradient(45deg, #fc1977, #fff, #41031d);
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 8s linear infinite;
