@@ -5,7 +5,7 @@ const port = 8000;
 
 // Connection URL and database name
 const url = 'mongodb://localhost:27017';
-const dbName = 'your_database_name';
+const dbName = 'hideout';
 
 
 
