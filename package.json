@@ -4,7 +4,8 @@
   "description": "a website where you can share your travelling experiences",
   "main": "save.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node save.js"
   },
   "author": "aditya",
   "license": "ISC",
